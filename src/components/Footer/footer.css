@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 5em;
+
+}
+
+.footerCircle {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.footerCircle:hover {
+  background-color: #D4DFE6;
+}
+
+.arrow {
+  position: absolute;
+  width: 35px;
+  height: 40px;
+  top: 7px;
+  left: 12px;
+}
