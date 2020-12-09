@@ -1,0 +1,19 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  flex-flow: row;
+  width: 80vw;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #005b8ef5;
+  padding: 0.8em 0;
+  top: 0px;
+  z-index: 5;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+

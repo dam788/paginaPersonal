@@ -1,0 +1,8 @@
+.articlesCards {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  overflow: hidden;
+  margin-left: 15px;
+}
+

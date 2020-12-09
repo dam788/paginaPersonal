@@ -1,0 +1,34 @@
+.containerPerson {
+  display: flex;
+  align-items: center;
+  margin: 10em 0 3em 0;
+}
+
+.containerPerson > img {
+  width: 216px;
+  height: 216px;
+ margin: 0 15px;
+}
+
+.textPerson {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  padding: 0 15px 0 30px;
+}
+
+.textPerson h2 {
+  color: #00FFE0;
+  font-weight: normal;
+}
+
+
+.textPerson img {
+  margin: 20px 0;
+}
+
+.textPerson p {
+  font-weight: 100;
+  line-height: 1.5em;
+}

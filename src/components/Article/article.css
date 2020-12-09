@@ -1,0 +1,18 @@
+.articleSection {
+  background-color: #efefef;
+  border-radius: 5px;
+  box-shadow: 0 3px 12px ;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 12px #0000001a;
+  border: solid 1px transparent;
+  text-align: start;
+  opacity: 0.95;
+}
+
+.articleSection:hover {
+    box-shadow: 0 3px 15px #00000026;
+    border: solid 1px #11364a3a;
+    opacity: 1;
+}
+

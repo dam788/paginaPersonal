@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Spartan:wght@800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  font-family: 'Roboto', monospace, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #EBEDF0;
+  background-image: url('./assets/img/fondo_azul.svg');
+  background-size: cover;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header,
+main,
+footer,
+.container {
+  width: 80vw;
+}
+
+main {
+  padding-bottom: 2em;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Roboto', monospace, sans-serif;
+}
+
+h1 {
+  font-family: 'Spartan', sans-serif;
+  font-size: 38px;
+  color: #fff;
+}
+
+.text-dark {
+  color: #11364A;
+}
+
+.text-white {
+  color: #fff;
+}
+
+main {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+p,h3,h4 {
+  color: #11364A;
+}
+
+p {
+  margin: 1em 0;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+small {
+  padding-right: 5px;
+}
+
+hr {
+  border-style: outset;
+  margin: 10px 0;
+  
+}

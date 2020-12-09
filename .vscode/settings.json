@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "onWindowChange",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 85,
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.autoIndent": "brackets"
+}
