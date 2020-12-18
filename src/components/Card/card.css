@@ -1,0 +1,46 @@
+.boxCard {
+  background-color: #efefef;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0.95;
+}
+
+.boxCard:hover {
+  opacity: 1;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.imageProyect {
+    background-size: cover !important;
+    background-position: center !important;
+    height: 14em;
+    filter: grayscale(0.5);
+}
+
+.imageProyect:hover{
+  filter: none;
+}
+
+.carTitle {
+  text-align: start;
+  color: #005B8E;
+  font-weight: 900;
+}
+
+.descriptionCard {
+  /* background-color: darksalmon; */
+  border-radius: 0 0 5px 5px;
+  padding: 0.5em;
+}
+
+.icons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.pCard {
+  text-align: start;
+  margin: 5px 0;
+}

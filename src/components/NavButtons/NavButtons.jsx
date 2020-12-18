@@ -15,11 +15,11 @@ const NavButtons = () => {
         <Boton placeholder={'FORMACIÓN'} href={'#formacion'}/>
         <Boton placeholder={'CONOCIMIENTOS'} href={'#conocimientos'}/>
         <Boton placeholder={'EXPERICENCIA'} href={'#experiencia'}/>
-        <Boton placeholder={'PORFOLIO'} color={'color'} event={true}/>
+        <Boton placeholder={'IR A PORFOLIO'} color={'color'} event={true}/>
       </div> 
       :
       <div className="borderRounded">
-        <Boton placeholder={'VOLVER ATRÁS'} event={true}/>
+        <Boton placeholder={'VOLVER ATRÁS'} event={true} />
       </div> 
   )
 }

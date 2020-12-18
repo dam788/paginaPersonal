@@ -26,7 +26,6 @@ const App = () => {
       </ViewProvider>
       <Footer/>
     </>
-
   )
 }
 

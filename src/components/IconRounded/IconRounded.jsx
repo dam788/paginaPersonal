@@ -2,12 +2,13 @@ import React from 'react'
 import './iconRounded.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const IconRounded = ({icon, link}) => {
+
+const IconRounded = ({icon, link, dark, textColor="text-white"}) => {
   
   return (
-    <div className="rounded">
+    <div className={`rounded ${dark}`}>
       <a href={link} target="blank">
-        <FontAwesomeIcon icon={icon} className='text-white' />
+        <FontAwesomeIcon icon={icon} className={textColor}/>
       </a>
     </div>
   )

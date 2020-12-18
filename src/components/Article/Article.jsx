@@ -1,11 +1,15 @@
 import React from 'react'
 import './article.css'
 
-const Article = ({children, id, title='titulo'}) => {
+const Article = ({
+  children, 
+  id, 
+  title='titulo'
+  }) => {
   
   return (
     <div id={id} className="articleSection">
-      <h3>{title}</h3>
+      <h3 className="titleArticle">{title}</h3>
       <hr/>
       {children}
     </div>

@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  /* user-select: none; */
 }
 
 body {
@@ -48,7 +49,7 @@ h1 {
 }
 
 .text-dark {
-  color: #11364A;
+  color: #11364A !important;
 }
 
 .text-white {

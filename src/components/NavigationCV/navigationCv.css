@@ -1,0 +1,25 @@
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 38px;
+  background-color: #11364aed;
+  border-radius: 5px;
+}
+
+.filters {
+  font-weight: 500;
+  margin: 0 5px;
+  color: #fff;
+  font-size: small;
+  cursor: pointer;
+}
+
+.filters:hover {
+  color: #00FFE0;
+}
+
+.filters:active {
+  color: #FF0057;
+}

@@ -2,6 +2,7 @@ import React,{useContext} from 'react'
 import './articlesCV.css'
 import Section from '../Article/Article.jsx'
 import Boton from '../Button/Button.jsx'
+import Porfolio from '../Porfolio/Porfolio.jsx'
 import {ViewContext} from '../../context/ViewContext.jsx'
 import {faFileDownload} from '@fortawesome/free-solid-svg-icons'
 
@@ -31,7 +32,7 @@ const ArticlesCV = () => {
     </div>
     ):(
     <div className="articlesCards">
-      <h2>Aca va el porfolio perro!</h2>
+      <Porfolio/>
     </div>
     )
   )

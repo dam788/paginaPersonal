@@ -5,9 +5,14 @@
   font-size: 18px;
   justify-content: center;
   align-items: center;
-  border: 1px solid #fff;
   border-radius: 50%;
   margin-left: 0.6em;
+  cursor: pointer;
+  /* border: 1px solid #fff; */
+}
+
+.rounded.dark {
+  border: 1px solid #11364A;
 }
 
 .rounded:hover,
@@ -15,4 +20,25 @@
   color: #005B8E;
   background-color: #00FFE0;
   border-color: #00FFE0;
+}
+
+.rounded.dark:hover,
+.rounded.dark:hover * {
+  color: #00FFE0;
+  background-color: #11364A;
+  border-color: #11364A;
+}
+
+.rounded:active,
+.rounded:active * {
+  color: #FF0057;
+  background-color: #11364A;
+  border-color: #11364A;
+}
+
+.rounded.dark:active,
+.rounded.dark:active * {
+  color: #FF0057;
+  background-color: #11364A;
+  border-color: #11364A;
 }

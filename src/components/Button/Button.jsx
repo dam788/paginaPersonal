@@ -17,7 +17,7 @@ const Button = ({placeholder='boton!', color='', href='#!', rounded='', event=fa
       icon={icon} 
       className='text-white' 
       style={{
-        fontSize:'20px',
+        fontSize:'16px',
         marginLeft: '10px'
       }}
     />
