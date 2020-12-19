@@ -23,3 +23,21 @@
 .filters:active {
   color: #FF0057;
 }
+
+@media (max-width:472px){
+  
+  .options {
+    display: inline-flex;
+    flex-flow: column wrap;
+    height: auto;
+    padding: 10px 0;
+  }
+
+.filters {
+    font-weight: 500;
+    margin: 10px 20px;
+    color: #fff;
+    font-size: medium;
+    cursor: pointer;
+}
+}

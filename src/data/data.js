@@ -26,6 +26,6 @@ export const proyects = [
     photo: '', 
     link1: '', 
     link2: '',
-    tecnology: ['Javascript', 'Maquetado']
+    tecnology: ['Javascript']
   }
 ]

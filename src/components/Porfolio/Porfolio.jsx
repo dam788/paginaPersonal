@@ -21,12 +21,12 @@ const Porfolio = () => {
   return (
     <>
       <NavCv>
-        <span set-name="todo"  className="filters" onClick={ handleCategory }>Todo</span>
-        <span set-name="xd"  className="filters" onClick={ handleCategory }>Adobe XD</span>
-        <span set-name="maq"  className="filters" onClick={ handleCategory }>Maquetado</span>
-        <span set-name="js"  className="filters" onClick={ handleCategory }>Javascript</span>
-        <span set-name="react"  className="filters" onClick={ handleCategory }>React</span>
-        <span set-name="node"  className="filters" onClick={ handleCategory }>Node JS</span>
+        <span className="filters" onClick={ handleCategory }>Todo</span>
+        <span className="filters" onClick={ handleCategory }>Adobe XD</span>
+        <span className="filters" onClick={ handleCategory }>Maquetado</span>
+        <span className="filters" onClick={ handleCategory }>Javascript</span>
+        <span className="filters" onClick={ handleCategory }>React</span>
+        <span className="filters" onClick={ handleCategory }>Node JS</span>
       </NavCv>
       { 
         <h2 className="h2Title"><b className="text-white">Proyectos:</b> {filter.toUpperCase()}</h2>

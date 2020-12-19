@@ -17,3 +17,16 @@
   align-items: center;
 }
 
+
+@media (max-width: 768px) {
+  
+  .navbar {
+    width: 90vw;
+  }
+}
+
+@media (max-width:472px){
+  .row small {
+    display: none;
+  }
+}

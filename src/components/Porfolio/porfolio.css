@@ -11,3 +11,15 @@
   margin-top: 1.5em;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.322);
 }
+
+@media (max-width: 1244px) {
+  .contentCards {
+    grid-template-columns: repeat(2, 1fr);    
+  }
+}
+
+@media (max-width: 650px) {
+  .contentCards {
+    grid-template-columns: repeat(1, 1fr);    
+  }
+}

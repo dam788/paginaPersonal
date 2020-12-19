@@ -6,7 +6,7 @@ export const ViewContext = createContext();
 
 export const ViewProvider = ({children})=> {
   
-  const [view, setView] = useState(true) //logica de boton de vista
+  const [view, setView] = useState(false) //logica de boton de vista
   const [filter, setFilter] = useState('Todo')
 
 

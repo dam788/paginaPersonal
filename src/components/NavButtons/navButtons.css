@@ -8,3 +8,16 @@
   box-shadow: 0 0px 10px #00000013;
   
 }
+
+@media (max-width: 768px) {
+  .borderRounded {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      width: 80%;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 0px 10px #00000013;
+      
+  }
+}

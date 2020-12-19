@@ -30,6 +30,8 @@ main,
 footer,
 .container {
   width: 80vw;
+  display: flex;
+  justify-content: center;
 }
 
 main {
@@ -80,4 +82,30 @@ hr {
   border-style: outset;
   margin: 10px 0;
   
+}
+
+@media (max-width:1046px) {
+  body {
+      background-image: none;
+      background-color: #005B8E;
+  }
+}
+
+@media (max-width: 768px) {
+
+  main {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .border-rounded {
+      align-self: center;
+  }
+  
+  header,
+  main,
+  footer,
+  .container {
+    width: 95vw;
+  }
 }
