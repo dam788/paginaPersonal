@@ -4,7 +4,7 @@ import {ViewContext} from '../../context/ViewContext.jsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
-const Button = ({placeholder='boton', color='', iconColorDark='', href='#!', rounded='', event=false, icon}) => {
+const Button = ({placeholder='boton', color='', iconColorDark='', href='#!', rounded='', event=false, icon, target=''}) => {
   
   const {view,setView} = useContext(ViewContext)
 
@@ -25,7 +25,7 @@ const Button = ({placeholder='boton', color='', iconColorDark='', href='#!', rou
 
   return (
     <>
-      <a href={href}>
+      <a href={href} target={target}>
         <button 
           className={`btn ${color} ${rounded}`} 
           onClick={ handleView }

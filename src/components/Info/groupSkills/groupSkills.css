@@ -1,9 +1,17 @@
-div .containerGroup {
+.containerGroup {
   display: flex;
+  position: relative;
   border-radius: 5px;
   flex-wrap: wrap;
   margin: 0.5em 0;
   background-color: whitesmoke;
+  align-items: center;
+  padding: 0 0.5em;
+  border: 1px solid transparent;
+}
+
+.containerGroup:hover {
+  border: 1px solid #0000001c;  
 }
 
 .groupTitle {
