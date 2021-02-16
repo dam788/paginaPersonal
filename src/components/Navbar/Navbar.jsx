@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
       <div className='navbar'>  
       <a href="#root">
-        <img src={logo} alt="logotedInipo"/>
+        <img src={logo} className="logo" alt="logotedInipo"/>
       </a>
         <div className="row">
           <small className="text-white">contacto</small>

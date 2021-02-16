@@ -1,0 +1,13 @@
+div .containerGroup {
+  display: flex;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  margin: 0.5em 0;
+  background-color: whitesmoke;
+}
+
+.groupTitle {
+  align-self: center;
+  padding: 0.5em;
+  margin-right: 0.5em;
+}

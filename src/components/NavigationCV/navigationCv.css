@@ -24,7 +24,7 @@
   color: #FF0057;
 }
 
-@media (max-width:472px){
+@media (max-width: 768px){
   
   .options {
     display: inline-flex;

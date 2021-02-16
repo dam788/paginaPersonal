@@ -25,3 +25,12 @@ footer {
   top: 7px;
   left: 12px;
 }
+
+@media (max-width: 768px) {
+  footer {
+    width: 90%;
+  }  
+
+}
+
+

@@ -1,0 +1,34 @@
+.groupSkill {
+  transition: 100ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  /* background-color: #c1c1c14d; */
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: -0.4em;
+  padding: 0.5em;
+  width: 100px;
+  border-radius: 5px;
+  opacity: 0.8;
+  transform: scale(0.70);
+  border-bottom: 3px solid transparent;
+  text-align: center;
+}
+
+.imgSkill {
+  height: 60px;
+  padding-bottom: 0.5em;
+  filter: grayscale(1);
+}
+
+.groupSkill:hover, .imgSkill:hover {
+  filter: grayscale(0);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.groupSkill:hover {
+  background-color: white;
+  box-shadow: 0 2px 20px #a1a1a191;
+  border-bottom: 3px solid #00FFE0;
+}

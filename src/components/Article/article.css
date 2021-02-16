@@ -1,4 +1,5 @@
 .articleSection {
+  position: relative;
   background-color: #efefef;
   border-radius: 5px;
   box-shadow: 0 3px 12px ;

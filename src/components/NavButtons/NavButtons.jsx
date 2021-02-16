@@ -2,6 +2,7 @@ import React,{useContext} from 'react'
 import Boton from '../Button/Button.jsx'
 import './navButtons.css'
 import {ViewContext} from '../../context/ViewContext.jsx'
+import {faArrowLeft} from '@fortawesome/free-solid-svg-icons'
 
 
 const NavButtons = () => {
@@ -11,15 +12,15 @@ const NavButtons = () => {
   return (
     !view ? 
       <div className="borderRounded">
-        <Boton placeholder={'DATOS'} href={'#root'}/>
+        <Boton placeholder={'DATOS'} href={'#datos'}/>
+        <Boton placeholder={'HABILIDADES'} href={'#conocimientos'}/>
         <Boton placeholder={'FORMACIÓN'} href={'#formacion'}/>
-        <Boton placeholder={'CONOCIMIENTOS'} href={'#conocimientos'}/>
         <Boton placeholder={'EXPERICENCIA'} href={'#experiencia'}/>
-        <Boton placeholder={'IR A PORFOLIO'} color={'color'} event={true}/>
+        <Boton placeholder={'VISITAR PORFOLIO'} color={'color'} event={true}/>
       </div> 
       :
       <div className="borderRounded">
-        <Boton placeholder={'VOLVER ATRÁS'} event={true} />
+        <Boton placeholder={'VOLVER ATRÁS '} event={true} icon={faArrowLeft} iconColorDark={'text-dark'} />
       </div> 
   )
 }

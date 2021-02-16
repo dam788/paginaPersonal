@@ -17,12 +17,33 @@
   align-items: center;
 }
 
+/** Logoyipo*/
+
+.logo {
+  animation: vary 3s ease-in-out alternate infinite;
+}
+
+@keyframes vary {
+  to { transform: scale(0.9) }
+}
+
+
+
 
 @media (max-width: 768px) {
   
   .navbar {
     width: 90vw;
   }
+  
+  .row {
+    padding-right: 30px;
+  }
+
+  .logo {
+    padding-left: 30px;
+  }
+
 }
 
 @media (max-width:472px){
@@ -30,3 +51,4 @@
     display: none;
   }
 }
+

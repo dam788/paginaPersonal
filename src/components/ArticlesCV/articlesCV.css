@@ -6,6 +6,26 @@
   margin-left: 15px;
 }
 
+.iconsCv {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #11364A;
+  font-size: 1.8em;
+  width: 2em;
+  height: 2em;
+  border-radius: 0px 6px 0px 16px;
+  color: #d4dfe6;
+  top: -1px;
+  right: -2px;
+  z-index: 1;
+}
+
+.articlesCards :hover > .iconsCv  {
+  color: #00FFE0;
+}
+
 @media (max-width: 768px) {
 
   .articlesCards {

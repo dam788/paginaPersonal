@@ -9,7 +9,7 @@ const Article = ({
   
   return (
     <div id={id} className="articleSection">
-      <h3 className="titleArticle">{title}</h3>
+      <h2 className="titleArticle">{title}</h2>
       <hr/>
       {children}
     </div>
