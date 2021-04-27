@@ -8,7 +8,7 @@ import { certified } from "../../../data/certified";
 const Formacion = () => {
   return (
     <>
-      <div className="containerGroup">
+      <div className="containerGroupExp">
         <img
           className="arrowSmall"
           src={Arrow}
@@ -28,7 +28,7 @@ const Formacion = () => {
           /> */}
         </div>
       </div>
-      <div className="containerGroup">
+      <div className="containerGroupExp">
         <img
           className="arrowSmall"
           src={Arrow}
@@ -50,7 +50,7 @@ const Formacion = () => {
           /> */}
         </div>
       </div>
-      <div className="containerGroup">
+      <div className="containerGroupExp">
         <img
           className="arrowSmall"
           src={Arrow}
@@ -72,7 +72,7 @@ const Formacion = () => {
           />
         </div>
       </div>
-      <div className="containerGroup">
+      <div className="containerGroupExp">
         <img
           className="arrowSmall"
           src={Arrow}
@@ -94,7 +94,7 @@ const Formacion = () => {
           />
         </div>
       </div>
-      <div className="containerGroup">
+      <div className="containerGroupExp">
         <img
           className="arrowSmall"
           src={Arrow}
@@ -116,7 +116,7 @@ const Formacion = () => {
           />
         </div>
       </div>
-      <div className="containerGroup">
+      <div className="containerGroupExp">
         <img
           className="arrowSmall"
           src={Arrow}
@@ -136,7 +136,7 @@ const Formacion = () => {
           />
         </div>
       </div>
-      <div className="containerGroup">
+      <div className="containerGroupExp">
         <img
           className="arrowSmall"
           src={Arrow}
@@ -156,7 +156,7 @@ const Formacion = () => {
           />
         </div>
       </div>
-      <div className="containerGroup">
+      {/* <div className="containerGroupExp">
         <img
           className="arrowSmall"
           src={Arrow}
@@ -175,8 +175,8 @@ const Formacion = () => {
             link={"#"}
           />
         </div>
-      </div>
-      <div className="containerGroup">
+      </div> */}
+      <div className="containerGroupExp">
         <img
           className="arrowSmall"
           src={Arrow}
@@ -187,7 +187,7 @@ const Formacion = () => {
           FADU - UBA. No finalizado.<em>2010-2016.</em>
         </p>
       </div>
-      <div className="containerGroup">
+      <div className="containerGroupExp">
         <img
           className="arrowSmall"
           src={Arrow}

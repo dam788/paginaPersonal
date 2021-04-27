@@ -4,10 +4,12 @@ import React, { useContext} from 'react'
 import './porfolio.css'
 import Card from '../Card/Card.jsx'
 import NavCv from '../NavigationCV/NavigationCv.jsx'
-import { faGithub  } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import {
+  faGithub,
+  faChrome,
+} from "@fortawesome/free-brands-svg-icons";
 import { ViewContext } from '../../context/ViewContext.jsx'
-import image1 from '../../assets/img/proyects/1.png'
+// import image1 from '../../assets/img/proyects/1.png'
 
 
 const Porfolio = () => {
@@ -35,38 +37,38 @@ const Porfolio = () => {
       { filter === 'Todo'?
         (
           proyects.map( proyect => {
-            return(
+            return (
               <Card
-                key={ proyect.title }
-                titulo={ proyect.title }
-                parrafo={ proyect.description }
-                img={ image1 } 
-                icon1={ faGithub } 
-                icon2={ faEnvelope }
-                href1={ proyect.link1 }
-                href2={ proyect.link2 } 
-                textColor={ 'text-dark' }
+                key={proyect.title}
+                titulo={proyect.title}
+                parrafo={proyect.description}
+                img={proyect.photo}
+                icon1={faChrome}
+                icon2={faGithub}
+                link1={proyect.link1}
+                link2={proyect.link2}
+                textColor={"text-dark"}
               />
-            )
+            );
           })               
         ):(
           proyects.map( proyect => {
             let {tecnology:tecno} = proyect
             const match = tecno.find( elem => elem === filter )
             if( match ) {
-              return(
+              return (
                 <Card
-                  key={ proyect.title }
-                  titulo={ proyect.title }
-                  parrafo={ proyect.description }
-                  img={ image1 } 
-                  icon1={ faGithub } 
-                  icon2={ faEnvelope }
-                  href1={ proyect.link1 }
-                  href2={ proyect.link2 } 
-                  textColor={ 'text-dark' }
+                  key={proyect.title}
+                  titulo={proyect.title}
+                  parrafo={proyect.description}
+                  img={proyect.photo}
+                  icon1={faChrome}
+                  icon2={faGithub}
+                  link1={proyect.link1}
+                  link2={proyect.link2}
+                  textColor={"text-dark"}
                 />
-              )
+              );
           }})        
         )  
       }

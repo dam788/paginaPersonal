@@ -10,12 +10,25 @@
   border: 1px solid transparent;
 }
 
-.containerGroup:hover {
-  border: 1px solid #0000001c;  
-}
-
 .groupTitle {
   align-self: center;
   padding: 0.5em;
   margin-right: 0.5em;
+}
+
+@media (max-width: 503px) {
+  
+  .groupTitle {
+    align-self: center;
+    padding: 0.5em;
+    margin-right: 0.5em;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .containerGroup {
+    padding: 0.7em 0.5em;
+    justify-content: center;
+  }
+
 }

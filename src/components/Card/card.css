@@ -15,7 +15,7 @@
     background-size: cover !important;
     background-position: center !important;
     height: 14em;
-    filter: grayscale(0.5);
+    filter: grayscale(0.7);
 }
 
 .imageProyect:hover{
